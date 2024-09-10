@@ -1,0 +1,3 @@
+// CREAR COLECCION //
+
+db.createCollection("nombrebase") 
