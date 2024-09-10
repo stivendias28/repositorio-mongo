@@ -1,0 +1,4 @@
+//ELIMINAR DEPARTAMENTO
+
+db.departamentos.deleteOne({ "nombre": "Ventas" })   
+
