@@ -1,4 +1,4 @@
-//CREAR NUEVO EMPLEADO 
+//CREAR NUEVO EMPLEADO// 
 
 db.empleados.insertOne({ 				
   "nombre": "Luis Martínez", 
