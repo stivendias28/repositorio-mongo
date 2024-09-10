@@ -1,0 +1,3 @@
+use pequena_empresa
+
+db.dropDatabase()
