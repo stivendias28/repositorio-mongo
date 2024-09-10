@@ -1,0 +1,3 @@
+// BUSCAR EMPLEADO CON SALARIO MAYO A 50000
+
+db.empleados.find({ "salario": { "$gt": 50000 } }).pretty()
