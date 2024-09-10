@@ -1,0 +1,3 @@
+// BUSCAR  TODOS LO EMPLEADOS
+
+db.empleados.find().pretty()   				
