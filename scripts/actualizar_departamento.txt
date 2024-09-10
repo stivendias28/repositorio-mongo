@@ -1,0 +1,6 @@
+// ACTUALIZAR JEFE DE DEPARTAMENTO
+
+db.departamentos.updateOne(
+  { "nombre": "Marketing" }, 
+  { "$set": { "jefe_departamento": "Carlos Mendez" } }	
+)
