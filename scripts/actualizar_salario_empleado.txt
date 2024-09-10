@@ -1,0 +1,6 @@
+//ACTUALIZAR SALARIO DE UN EMPLEADO
+
+db.empleados.updateOne( 				
+  { "nombre": "María Gómez" }, 
+  { "$set": { "salario": 45000 } }
+)
