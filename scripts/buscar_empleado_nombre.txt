@@ -1,0 +1,3 @@
+ //BUSCAR EMPLEADOS POR NOMBRE
+
+db.empleados.find({ "nombre": "Juan Pérez" }).pretty() 
