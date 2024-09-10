@@ -1,0 +1,13 @@
+//CREAR NUEVO EMPLEADO 
+
+db.empleados.insertOne({ 				
+  "nombre": "Luis Martínez", 
+  "edad": 32, 
+  "departamento_id": ObjectId(), 
+  "email": "luis.martinez@empresa.com", 
+  "telefono": "555-7890", 
+  "cargo": "Diseñador", 
+  "salario": 45000, 
+  "fecha_contratacion": "2022-02-20", 
+  "proyectos_asignados": [ObjectId()]
+})
