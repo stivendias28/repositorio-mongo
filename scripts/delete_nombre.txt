@@ -1,0 +1,4 @@
+ //ELIMINAR EMPLEADO POR NOMBRE
+
+db.empleados.deleteOne({ "nombre": "Luis Martínez" })	
+
