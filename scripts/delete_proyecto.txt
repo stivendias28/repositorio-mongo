@@ -1,0 +1,3 @@
+ //ELIMINAR PROYECTO ESPECIFICO
+
+db.proyectos.deleteOne({ "nombre": "Implementación de CRM" })  
