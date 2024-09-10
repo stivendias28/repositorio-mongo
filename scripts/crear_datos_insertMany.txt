@@ -1,0 +1,8 @@
+//CREAR DATOS//
+
+
+db.tareas.insertMany([      
+  { "proyecto_id": ObjectId(), "descripcion": "Desarrollar la interfaz", "fecha_inicio": "2023-02-01", "fecha_fin": "2023-03-01", "estado": "En progreso", "empleado_asignado": ObjectId() },
+  { "proyecto_id": ObjectId(), "descripcion": "Pruebas de integración", "fecha_inicio": "2023-04-01", "fecha_fin": "2023-05-01", "estado": "Pendiente", "empleado_asignado": ObjectId() },
+  { "proyecto_id": ObjectId(), "descripcion": "Implementación del backend", "fecha_inicio": "2023-05-01", "fecha_fin": "2023-06-01", "estado": "Pendiente", "empleado_asignado": ObjectId() }
+])
