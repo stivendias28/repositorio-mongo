@@ -1,0 +1,10 @@
+//CREAR NUEVO DEPARTAMENTO
+
+
+db.departamentos.insertOne({				
+  "nombre": "Ventas", 
+  "jefe_departamento": "Mario Díaz", 
+  "extension": 104, 
+  "presupuesto_anual": 70000, 
+  "numero_empleados": 4
+})
